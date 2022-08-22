@@ -49,7 +49,7 @@ export default function Auth() {
             </HStack>
           </MenuButton>
           <MenuList
-            bg={useColorModeValue("white", "gray.900")}
+            
             borderColor={"gray.500"}
           >
             <MenuItem>
