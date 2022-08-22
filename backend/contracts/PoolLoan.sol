@@ -42,7 +42,7 @@ contract PoolLoan {
         require(msg.sender == borrower); // Only the borrower can cancel the loan
         require(status == LoanState.ONGOING);
         require(block.timestamp <= startTime+duration);
-        uint total = amount + (amount*duration*apr/36500);
+        uint total = amount + (amount*duration*apr/365 days /100);
         require(msg.value >= total); 
         status = LoanState.COMPLETED;
         WETH.transferFrom(msg.sender, lender, total); // Transfers funds to the creator
