@@ -49,7 +49,7 @@ export default function LoanRequests() {
         <Box
           p={6}
           m={1}
-          bg={useColorModeValue("whitealpha.700", "gray.700")}
+          
           shadow="md"
           rounded="md"
         >
