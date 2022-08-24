@@ -5,7 +5,7 @@ import * as UAuthWeb3Modal from "./UAuthWeb3";
 
 const uauthOptions = {
   clientID: "dfa3c076-9ec7-4713-bad7-8850f2df88aa",
-  redirectUri: "http://localhost:3000",
+  redirectUri: "https://liquid721-zee7x8.spheron.app",
   scope: "openid wallet",
 };
 export const providerOptions = {
