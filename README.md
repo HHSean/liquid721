@@ -11,8 +11,8 @@ Solidity, Hardhat, Chainlink(to fetch NFT floor price)
 
 ## Sponsor tools used
 
-Chainlink: to fetch NFT floor price
-Sequence Wallet: integrate login with sequence wallet
-Spheron: deploy frontend with spheron
-IPFS: deploy frontend with IPFS as protocol
+Chainlink: to fetch NFT floor price</br>
+Sequence Wallet: integrate login with sequence wallet</br>
+Spheron: deploy frontend with spheron</br>
+IPFS: deploy frontend with IPFS as protocol</br>
 
