@@ -1,34 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About
+This project is built as an inspiration of NFTfi, to fix the illiquidity of NFT. However, the peer to peer mechanic require borrower to wait until someone willing to accept his loan request. Thus, I've built a liquidity pool for borrower to get instant loan, capped at 50% of the NFT floor price. However, due to lack of time, I only managed to finished to backend of liquidity pool, integrated with Chainlink Any API.
 
-## Getting Started
+## How I built it
+### Frontend
+Next.JS React framework
 
-First, run the development server:
+### Backend
+Smartcontract
+Solidity, Hardhat, Chainlink(to fetch NFT floor price)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Sponsor tools used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Chainlink: to fetch NFT floor price
+Sequence Wallet: integrate login with sequence wallet
+Spheron: deploy frontend with spheron
+IPFS: deploy frontend with IPFS as protocol
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
