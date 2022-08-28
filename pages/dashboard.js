@@ -40,6 +40,10 @@ export default function DashBoard() {
       fetchLoanNFTs();
     }
   }, [account]);
+  const claim = async (e, props) => {
+    e.preventDefault();
+    claimNFT(props.loanAddr);
+  };
   return (
     <Box w="full" h="100vh" p={6} pt={20} fontFamily={"mono"}>
       <Heading fontFamily={"mono"} fontSize={"2xl"} colorScheme={"gray"} pb={8}>
@@ -82,7 +86,13 @@ export default function DashBoard() {
                 .map((loan, index) => {
                   const deadline = new Date(
                     ethers.BigNumber.from(loan.startTime) * 1000
-                  ).toISOString();
+                  );
+
+                  deadline.setDate(
+                    deadline.getDate() +
+                      parseInt(loan.duration.toString(), 16) / 86400
+                  );
+
                   //const date = deadline.getDate();
                   //const m = deadline.getMonth();
                   // const y = deadline.getYear();
@@ -90,8 +100,10 @@ export default function DashBoard() {
                     <NFTCard
                       key={index}
                       props={loan}
-                      btnText={`Claim NFT On ${deadline.slice(0, 10)}`}
-                      fn={claimNFT}
+                      btnText={`Claim NFT On ${deadline
+                        .toString()
+                        .slice(0, 10)}`}
+                      fn={claim}
                     />
                   );
                 })
