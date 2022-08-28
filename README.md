@@ -22,6 +22,8 @@ IPFS: deploy frontend with IPFS as protocol</br>
 ### Marketplace
 ![Display loan that is not yet fulfilled](https://github.com/joc-rgb/liquid721/blob/master/Web%20capture_29-8-2022_062_liquid721-zee7x8.spheron.app.jpeg)
 
+### Add Loan Request
+![Add Loan Request](https://github.com/joc-rgb/liquid721/blob/master/Web%20capture_29-8-2022_0218_liquid721-zee7x8.spheron.app.jpeg)
 ### Cancel Your Loan that is not yet Fulfilled
 ![Cancel Your Loan if not Fulfilled yet](https://github.com/joc-rgb/liquid721/blob/master/Web%20capture_29-8-2022_0939_liquid721-zee7x8.spheron.app.jpeg?raw=true)
 
