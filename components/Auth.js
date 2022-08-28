@@ -55,9 +55,7 @@ export default function Auth() {
             <MenuItem>
               <Link href={"/dashboard"}>Dashboard</Link>
             </MenuItem>
-            <MenuItem>
-              <Link href={"/create-loan"}>Create Loan</Link>
-            </MenuItem>
+            
 
             <MenuDivider />
             <MenuItem onClick={disconnect}>Sign out</MenuItem>
