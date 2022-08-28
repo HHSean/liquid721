@@ -18,3 +18,18 @@ Sequence Wallet: integrate login with sequence wallet</br>
 Spheron: deploy frontend with spheron</br>
 IPFS: deploy frontend with IPFS as protocol</br>
 
+## Demo img
+### Marketplace
+![Display loan that is not yet fulfilled](https://github.com/joc-rgb/liquid721/blob/master/Web%20capture_29-8-2022_062_liquid721-zee7x8.spheron.app.jpeg)
+
+### Cancel Your Loan that is not yet Fulfilled
+![Cancel Your Loan if not Fulfilled yet](https://github.com/joc-rgb/liquid721/blob/master/Web%20capture_29-8-2022_0939_liquid721-zee7x8.spheron.app.jpeg?raw=true)
+
+### Repay Loan Before Deadline
+![Display loan that is not yet fulfilled](https://github.com/joc-rgb/liquid721/blob/master/Web%20capture_29-8-2022_062_liquid721-zee7x8.spheron.app.jpeg)
+
+### Claim NFT collateral if your borrower didn't pay after deadline
+![Claim NFT collateral if your borrower didn't pay after deadline](https://github.com/joc-rgb/liquid721/blob/master/Web%20capture_29-8-2022_0711_liquid721-zee7x8.spheron.app.jpeg)
+
+### Instant NFT Lending Pool(Frontend in progress)
+![Instant NFT Lending Pool](https://github.com/joc-rgb/liquid721/blob/master/Web%20capture_29-8-2022_084_liquid721-zee7x8.spheron.app.jpeg)
