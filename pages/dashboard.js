@@ -60,7 +60,8 @@ export default function DashBoard() {
               loanNFTs
                 .filter(
                   (loan) =>
-                    loan.borrower.includes(account) && loan.loanState != "0x02"
+                    loan.borrower.includes(account) && loan.loanState != "0x02" &&
+                    loan.loanState !== "0x03"
                 )
                 .map((loan, index) => (
                   <NFTCard
