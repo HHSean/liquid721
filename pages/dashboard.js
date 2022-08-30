@@ -23,7 +23,7 @@ export default function DashBoard() {
     console.log("Amount", props.amount, "Duration", dur);
 
     const total = ethers.utils.parseEther(
-      aprCalculator(props.amount, dur, props.apr)
+      Math.ceil(aprCalculator(props.amount, dur, props.apr)).toString()
     );
     console.log(total);
     repayLoan(props.loanAddr, total);
